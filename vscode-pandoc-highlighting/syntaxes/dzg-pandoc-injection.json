@@ -1,0 +1,106 @@
+{
+  "scopeName": "dzg.pandoc.injection",
+  "injectionSelector": "L:text.html.markdown",
+  "patterns": [
+    {
+      "name": "meta.fenced.div.theorem.markdown",
+      "begin": "^:::\\s*\\{\\.theorem[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.lemma.markdown",
+      "begin": "^:::\\s*\\{\\.lemma[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.corollary.markdown",
+      "begin": "^:::\\s*\\{\\.corollary[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.proposition.markdown",
+      "begin": "^:::\\s*\\{\\.proposition[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.conjecture.markdown",
+      "begin": "^:::\\s*\\{\\.conjecture[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.axiom.markdown",
+      "begin": "^:::\\s*\\{\\.axiom[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.definition.markdown",
+      "begin": "^:::\\s*\\{\\.definition[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.example.markdown",
+      "begin": "^:::\\s*\\{\\.example[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.exercise.markdown",
+      "begin": "^:::\\s*\\{\\.exercise[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.remark.markdown",
+      "begin": "^:::\\s*\\{\\.remark[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.proof.markdown",
+      "begin": "^:::\\s*\\{\\.proof[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.case.markdown",
+      "begin": "^:::\\s*\\{\\.case[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.step.markdown",
+      "begin": "^:::\\s*\\{\\.step[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.note.markdown",
+      "begin": "^:::\\s*\\{\\.note[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.claim.markdown",
+      "begin": "^:::\\s*\\{\\.claim[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.fact.markdown",
+      "begin": "^:::\\s*\\{\\.fact[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.observation.markdown",
+      "begin": "^:::\\s*\\{\\.observation[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.question.markdown",
+      "begin": "^:::\\s*\\{\\.question[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.solution.markdown",
+      "begin": "^:::\\s*\\{\\.solution[^}]*\\}.*$",
+      "end": "^:::$"
+    },
+    {
+      "name": "meta.fenced.div.property.markdown",
+      "begin": "^:::\\s*\\{\\.property[^}]*\\}.*$",
+      "end": "^:::$"
+    }
+  ]
+}

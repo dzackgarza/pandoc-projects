@@ -1,0 +1,153 @@
+{
+  "name": "Test Pandoc Highlight",
+  "type": "dark",
+  "colors": {},
+  "tokenColors": [
+    {
+      "scope": "meta.fenced.div.theorem.markdown",
+      "settings": {
+        "foreground": "#FFD700",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.lemma.markdown",
+      "settings": {
+        "foreground": "#00BFFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.corollary.markdown",
+      "settings": {
+        "foreground": "#FF69B4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.proposition.markdown",
+      "settings": {
+        "foreground": "#7CFC00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.conjecture.markdown",
+      "settings": {
+        "foreground": "#FF8C00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.axiom.markdown",
+      "settings": {
+        "foreground": "#9932CC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.definition.markdown",
+      "settings": {
+        "foreground": "#00CED1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.example.markdown",
+      "settings": {
+        "foreground": "#FF4500",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.exercise.markdown",
+      "settings": {
+        "foreground": "#B8860B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.remark.markdown",
+      "settings": {
+        "foreground": "#20B2AA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.proof.markdown",
+      "settings": {
+        "foreground": "#C71585",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.case.markdown",
+      "settings": {
+        "foreground": "#4682B4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.step.markdown",
+      "settings": {
+        "foreground": "#6B8E23",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.note.markdown",
+      "settings": {
+        "foreground": "#A0522D",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.claim.markdown",
+      "settings": {
+        "foreground": "#DC143C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.fact.markdown",
+      "settings": {
+        "foreground": "#1E90FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.observation.markdown",
+      "settings": {
+        "foreground": "#FF6347",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.question.markdown",
+      "settings": {
+        "foreground": "#32CD32",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.solution.markdown",
+      "settings": {
+        "foreground": "#8B4513",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.fenced.div.property.markdown",
+      "settings": {
+        "foreground": "#FF00FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.raw.block.markdown",
+      "settings": {
+        "background": "#22222288"
+      }
+    }
+  ]
+}

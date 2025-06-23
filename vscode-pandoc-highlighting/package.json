@@ -1,0 +1,25 @@
+{
+  "name": "dzg-pandoc-highlighting",
+  "displayName": "DZG Pandoc Highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/dzg-pandoc-injection.json",
+        "scopeName": "dzg.pandoc.injection",
+        "injectTo": ["text.html.markdown"]
+      }
+    ],
+    "themes": [
+      {
+        "label": "Test Pandoc Highlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/test-color-theme.json"
+      }
+    ]
+  }
+}
+

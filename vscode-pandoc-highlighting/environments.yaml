@@ -1,0 +1,68 @@
+environments:
+  - name: theorem
+    title: Theorem
+    color: "#FFD700"
+  - name: lemma
+    title: Lemma
+    color: "#00BFFF"
+  - name: corollary
+    title: Corollary
+    color: "#FF69B4"
+  - name: proposition
+    title: Proposition
+    color: "#7CFC00"
+  - name: conjecture
+    title: Conjecture
+    color: "#FF8C00"
+  - name: axiom
+    title: Axiom
+    color: "#9932CC"
+  - name: definition
+    title: Definition
+    color: "#00CED1"
+  - name: example
+    title: Example
+    color: "#FF4500"
+  - name: exercise
+    title: Exercise
+    color: "#B8860B"
+  - name: remark
+    title: Remark
+    color: "#20B2AA"
+  - name: proof
+    title: Proof
+    color: "#C71585"
+  - name: case
+    title: Case
+    color: "#4682B4"
+  - name: step
+    title: Step
+    color: "#6B8E23"
+  - name: note
+    title: Note
+    color: "#A0522D"
+  - name: claim
+    title: Claim
+    color: "#DC143C"
+  - name: fact
+    title: Fact
+    color: "#1E90FF"
+  - name: observation
+    title: Observation
+    color: "#FF6347"
+  - name: question
+    title: Question
+    color: "#32CD32"
+  - name: solution
+    title: Solution
+    color: "#8B4513"
+  - name: property
+    title: Property
+    color: "#FF00FF"
+
+environment_regex: '^:::\s*\{\.%ENV%[^}]*\}.*$'
+
+block_body:
+  scope: markup.raw.block.markdown
+  background: "#22222288"
+

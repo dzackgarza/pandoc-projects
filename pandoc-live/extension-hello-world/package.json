@@ -1,0 +1,32 @@
+{
+  "name": "extension-hello-world",
+  "publisher": "your-name",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "activationEvents": [
+    "onCustomEditor:extension-hello-world.editor"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "extension-hello-world.editor",
+        "displayName": "Pandoc WYSIWYG Editor",
+        "selector": [
+          { "filenamePattern": "*.md" }
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vscode": "^1.70.0"
+  }
+}
