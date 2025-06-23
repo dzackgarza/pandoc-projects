@@ -1,0 +1,3 @@
+[submodule "pandocora"]
+	path = pandocora
+	url = git@github.com:dzackgarza/pandocora.git
