@@ -1,0 +1,6 @@
+# No specific Python packages are required to be installed via pip
+# for the core functionality of this tool.
+#
+# External dependencies (must be installed separately):
+# - pandoc: Available from https://pandoc.org/installing.html
+# - A LaTeX distribution (e.g., TeX Live, MiKTeX, MacTeX) for PDF output.
