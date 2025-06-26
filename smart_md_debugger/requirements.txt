@@ -1,6 +1,9 @@
-# No specific Python packages are required to be installed via pip
-# for the core functionality of this tool.
+# Python package dependencies:
+markdown-it-py~=3.0.0
+mdit_py_plugins~=0.4.0
+
+# External dependencies (must be installed separately if certain features are used):
+# - A LaTeX distribution (e.g., TeX Live, MiKTeX, MacTeX) for full PDF output simulation,
+#   though this linter aims to reduce reliance on it for syntax checking.
 #
-# External dependencies (must be installed separately):
-# - pandoc: Available from https://pandoc.org/installing.html
-# - A LaTeX distribution (e.g., TeX Live, MiKTeX, MacTeX) for PDF output.
+# Note: The dependency on CLI pandoc is being replaced by markdown-it-py for linting.
